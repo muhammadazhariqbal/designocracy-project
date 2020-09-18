@@ -1,8 +1,4 @@
-var loader=document.querySelector(".loader");
-window.addEventListener("load", vanish);
-function vanish(){
-    loader.classList.add("vanish");
-}
+
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
