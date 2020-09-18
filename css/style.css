@@ -8,52 +8,7 @@ font-family: 'Raleway', sans-serif;*/
     padding: 0rem;
 }
 
-.loader {
-    height: 100%;
-    width: 100%;
-    background-color: gray;
-    position: fixed;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 
-}
-.obj {
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 2px;
-    animation-name: updown;
-    animation-duration: 2s;
-
-    animation-iteration-count: infinite;
-    
-}
-@keyframes updown{
-    0%{
-        transform: translateY(-40px);
-    }
-    100%{
-        transform:translateY(40px);
-        
-        
-        
-        
-    }
-}
-
-.vanish{
-    animation: vanish 1s forwards;
-}
-@keyframes vanish{
-    100%{
-        opacity: 0;
-        visibility: hidden;
-    }
-}
 
 /*font-family: 'MuseoModerno', cursive;
 font-family: 'Noto Serif', serif;*/
